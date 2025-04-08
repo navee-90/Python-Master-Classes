@@ -1,0 +1,30 @@
+*** HDFC BANK ***
+1.Deposit
+2.Withdraw
+3.Balance
+4.Exit
+Enter choice : 1
+Enter amount: 200
+Current balance: 200
+1.Deposit
+2.Withdraw
+3.Balance
+4.Exit
+Enter choice :2
+balance greater than amount insufficient Fund
+if not greater than  -
+Enter amount:100
+current balance:100
+1.Deposit
+2.Withdraw
+3.Balance
+4.Exit
+Enter choice :3
+current balance:100
+1.Deposit
+2.Withdraw
+3.Balance
+4.Exit
+Enter choice :4
+break
+Successfully completed
