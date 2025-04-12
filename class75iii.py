@@ -1,0 +1,22 @@
+from tkinter import *
+def showform():
+    root=Tk()
+    root.geometry("900x340")
+    root.option_add("*Font","aerial 14 bold")
+    lblId=Label(root,text="Enter id: ")
+    lblId.place(relx=0.05,rely=0.05)
+    txtId=Entry(root)
+    txtId.place(relx=0.15,rely=0.05)
+    lblName=Label(root,text="Enetr Name: ")
+    lblName.place(relx=0.05,rely=0.15)
+    txtName=Entry(root)
+    txtName.place(relx=0.2,rely=0.15)
+    lblEmail=Label(root,text="Enter Email: ")
+    lblEmail.place(relx=0.05,rely=0.25)
+    txtEmail=Entry(root)
+    txtEmail.place(relx=0.2,rely=0.25)
+    btnSubmit=Button(root,text="Submit")
+    btnSubmit.place(relx=0.3,rely=0.35)
+    root.mainloop()
+    
+showform()

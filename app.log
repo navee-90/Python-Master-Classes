@@ -1,0 +1,8 @@
+INFO:root:this information msg
+WARNING:root:this is warning msg
+ERROR:root:this eroor msg
+CRITICAL:root:this is critical msg
+INFO:root:this information msg
+WARNING:root:this is warning msg
+ERROR:root:this eroor msg
+CRITICAL:root:this is critical msg

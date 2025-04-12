@@ -1,0 +1,31 @@
+from tkinter import *
+def submit():
+    msg=(f"Hello {txtName.get()}\nYour ID : {txtId.get()}\nYour Mobile ::{txtMobile.get()}\nYour Location: {txtCity.get()}")
+    lblmsg=Label(root,text=msg)
+    lblmsg.place(relx=0.3,rely=0.5)
+def showform():
+    global root,txtId,txtName,txtCity,txtMobile
+    root=Tk()
+    root.geometry("900x340")
+    root.option_add("*Font","aerial 13 bold")
+    lblId=Label(root,text="Enter Id: ")
+    lblId.place(relx=0.05,rely=0.05)
+    txtId=Entry(root)
+    txtId.place(relx=0.2,rely=0.05)
+    lblName=Label(root,text="Enter Name: ")
+    lblName.place(relx=0.05,rely=0.15)
+    txtName=Entry(root)
+    txtName.place(relx=0.2,rely=0.15)
+    lblMobile=Label(root,text="Eneter Mobile: ")
+    lblMobile.place(relx=0.05,rely=0.25)
+    txtMobile=Entry(root)
+    txtMobile.place(relx=0.2,rely=0.25)
+    lblCity=Label(root,text="Enetr City: ")
+    lblCity.place(relx=0.05,rely=0.35)
+    txtCity=Entry(root)
+    txtCity.place(relx=0.2,rely=0.35)
+    lblSubmit=Button(root,text="Submit",command=submit)
+    lblSubmit.place(relx=0.3,rely=0.45)
+    root.mainloop()
+showform()
+    
